@@ -1,0 +1,32 @@
+{
+  "name": "singleton",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Raphael",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/jest": "^27.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5"
+  },
+  "dependencies": {
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.37",
+    "typescript": "^4.4.3"
+  }
+}
